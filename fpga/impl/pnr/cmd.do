@@ -1,0 +1,14 @@
+-d D:\datos\proyectos\43_Tang_Nano_20k\57_Pruebas_MSX_lcd_tn20k\impl\gwsynthesis\MSX_hdmi_tn20k.vg
+-p GW2AR-18C-QFN88-8
+-pn GW2AR-LV18QN88C8/I7
+-cst D:\datos\proyectos\43_Tang_Nano_20k\57_Pruebas_MSX_lcd_tn20k\tang9k.cst
+-cfg D:\datos\proyectos\43_Tang_Nano_20k\57_Pruebas_MSX_lcd_tn20k\impl\pnr\device.cfg
+-sdc D:\datos\proyectos\43_Tang_Nano_20k\57_Pruebas_MSX_lcd_tn20k\src\MSX_hdmi_tn20k.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

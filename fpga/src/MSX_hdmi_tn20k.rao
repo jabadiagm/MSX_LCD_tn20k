@@ -1,0 +1,117 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_1m8" trig_type="0" storage_depth="4096" window_num="1" capture_amount="4096" implementation="0" trigger_pos="2000" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus name="nose4[5:0]">
+                <Signal>nose4[5]</Signal>
+                <Signal>nose4[4]</Signal>
+                <Signal>nose4[3]</Signal>
+                <Signal>nose4[2]</Signal>
+                <Signal>nose4[1]</Signal>
+                <Signal>nose4[0]</Signal>
+            </Bus>
+            <Bus name="LCD_G[5:0]">
+                <Signal>LCD_G[5]</Signal>
+                <Signal>LCD_G[4]</Signal>
+                <Signal>LCD_G[3]</Signal>
+                <Signal>LCD_G[2]</Signal>
+                <Signal>LCD_G[1]</Signal>
+                <Signal>LCD_G[0]</Signal>
+            </Bus>
+            <Bus name="VideoG[5:0]">
+                <Signal>VideoG[5]</Signal>
+                <Signal>VideoG[4]</Signal>
+                <Signal>VideoG[3]</Signal>
+                <Signal>VideoG[2]</Signal>
+                <Signal>VideoG[1]</Signal>
+                <Signal>VideoG[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>LCD_VSYNC</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Signal>LCD_DEN</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Signal>ex_bus_clk_3m6</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Bus restorename="vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[10:0]">
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[10]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[9]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[8]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[7]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[6]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[5]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[4]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[3]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[2]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[1]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/VCOUNTERIN[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4">
+                <SignalList>
+                    <Bus restorename="vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[10:0]">
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[10]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[9]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[8]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[7]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[6]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[5]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[4]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[3]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[2]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[1]</Signal>
+                        <Signal>vdp4/u_v9958/U_VDP_VGA/HCOUNTERIN[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="2"/>
+            <MatchUnit index="3" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="01000001000" value1="00000000000" trigger="3"/>
+            <MatchUnit index="4" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="11100000111" value1="00000000000" trigger="4"/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M1</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0010000001000110</GAO_ID>
+</GAO_CONFIG>
